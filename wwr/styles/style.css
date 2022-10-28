@@ -186,19 +186,19 @@ footer .social img {
     align-self: center;
 }
 
-.rivers_card {
+.rivers-card {
     margin: 200px 0;
     grid-column: 2/4;
     grid-row: 2/3;
 }
 
-.camping_card {
+.camping-card {
     margin: 200px 0;
     grid-column: 5/7;
     grid-row: 2/3;
 }
 
-.rapids_card {
+.rapids-card {
     margin: 200px 0;
     grid-column: 8/10;
     grid-row: 2/3;
