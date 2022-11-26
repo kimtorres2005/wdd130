@@ -39,19 +39,21 @@ nav a:hover {
 /* body */
 
 .home-title {
-    margin-bottom: 800px;
     color: white;
     font-family: "IM Fell French Canon SC";
     font-size: 6em;
-    margin-top: -825px;
-    text-align: center;
-    border-radius: 10px;
+    top: 10%;
+    bottom: 80%;
+    left: 15%;
+    right: 15%;
     text-decoration: underline;
     text-shadow: #000000 -1px 4px 6px;
+    position: absolute;
 }
 
 #playhouse {
     width: 100%;
+    position: relative;
 }
 
 #middle h4 {
