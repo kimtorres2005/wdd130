@@ -1,0 +1,118 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #A1B3B1;
+}
+
+/* header */
+nav a {
+    text-align: center;
+    padding: 77px;
+    color: #A1B3B1;
+    text-decoration: none;
+    font-size: 2.5em;
+}
+
+header {
+    background-color: #005866;
+    color: #000000;
+    display: grid;
+    grid-template-columns: 150px auto;
+    height: 180px;
+    font-family: "IM Fell French Canon SC";
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: #A1B3B1;
+    color: #000000;
+}
+
+.logo {
+    height: 180px;
+}
+
+/* body */
+
+.home-title {
+    margin-bottom: 900px;
+    color: white;
+    font-family: "IM Fell French Canon SC";
+    font-size: 6em;
+    margin-top: -975px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: underline;
+    text-shadow: #000000 -1px 4px 6px;
+}
+
+#playhouse {
+    width: 100%;
+    height: 1000px;
+}
+
+#middle h4 {
+    color: #000000;
+    font-size: 5em;
+    font-family: "IM Fell French Canon SC";
+    margin-left: 200px;
+    border: #67A3BB solid 15px;
+    margin-right: 205px;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+#middle p {
+    color: #000000;
+    font-size: 35px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 200px;
+    font-family: "Lato", "Helvetica", sans-serif;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.eggholder {
+    width: 1200px;
+    margin-left: 100px;
+}
+
+
+
+
+
+/* footer */
+footer {
+    background-color: #005866;
+    color: #000000;
+    padding: 15px 5px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+footer h3 {
+    color: #000000;
+    font-size: 2.5em;
+    font-family: "IM Fell French Canon SC";
+    border: #000000 solid 5px;
+}
+
+footer a {
+    color: #A1B3B1;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family:"IM Fell French Canon SC";
+}
+
+footer a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
