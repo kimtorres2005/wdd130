@@ -38,6 +38,11 @@ nav a:hover {
 
 /* body */
 
+#hero-box {
+    position: relative;
+    color: white;
+    text-align: center;
+}
 .home-title {
     color: white;
     font-family: "IM Fell French Canon SC";
