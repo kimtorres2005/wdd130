@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woodworking Gallery</title>
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+
+<body>
+    <!-- Container for the image gallery -->
+    <div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+            <div class="numbertext">1 / 18</div>
+            <img src="images/resized/playhouse.jpg" style="width:62.15%" class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 18</div>
+            <img src="images/resized/bedbench1.jpg" style="width:62.2%" class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 18</div>
+            <img src="images/resized/bedbench2.jpg" style="width:62.2%" class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 18</div>
+            <img src="images/resized/sidetable1.jpg" style="width:35%" class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 18</div>
+            <img src="images/resized/sidetable2.jpg" style="width:35%" class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">6 / 18</div>
+            <img src="images/resized/bench1.jpg" style="width:62.2%" class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">7 / 18</div>
+            <img src="images/resized/bench2.jpg" style="width:62.2%" class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">8 / 18</div>
+            <img src="images/resized/chair1.jpg" style="width:35%" class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">9 / 18</div>
+            <img src="images/resized/chair2.jpg" style="width:39.4%" class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">10 / 18</div>
+            <img src="images/resized/chair3.jpg" style="width:35%" class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">11 / 18</div>
+            <img src="images/resized/cradle1.jpg" style="width:45%" class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">12 / 18</div>
+            <img src="images/resized/cradle2.jpg" style="width:55%" class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">13 / 18</div>
+            <img src="images/resized/cabinet1.jpg" style="width:35%" class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">14 / 18</div>
+            <img src="images/resized/cabinet2.jpg" style="width:35%"class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">15 / 18</div>
+            <img src="images/resized/table.jpg" style="width:62.25%" class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">16 / 18</div>
+            <img src="images/resized/eggholder.jpg" style="width:62.25%" class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">17 / 18</div>
+            <img src="images/resized/cuttingboard.jpg" style="width:73.8%" class="center">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">18 / 18</div>
+            <img src="images/resized/engraving.jpg" style="width:41.3%" class="center">
+        </div>
+
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="images/resized/playhouse.jpg" style="width:100%" onclick="currentSlide(1)"
+                    alt="The Playhouse: Made from trees cut down on the property and milled into lumber.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/bedbench1.jpg" style="width:100%" onclick="currentSlide(2)"
+                    alt="Bedroom Bench/Chest: Made from sapele wood. Top opens up for storing items inside.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/bedbench2.jpg" style="width:100%" onclick="currentSlide(3)"
+                    alt="Bedroom Bench/Chest: Made from sapele wood. Top opens up for storing items inside.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/sidetable1.jpg" style="width:100%"
+                    onclick="currentSlide(4)" alt="Night Stand Table: Made from a single piece of sapele wood.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/sidetable2.jpg" style="width:100%"
+                    onclick="currentSlide(5)" alt="Night Stand Table: Made from a single piece of sapele wood.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/bench1.jpg" style="width:100%" onclick="currentSlide(6)"
+                    alt="Church Pew Bench: Made from reclaimed cedar wood. Cracks and knots filled with colored epoxy.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/bench2.jpg" style="width:100%" onclick="currentSlide(7)"
+                    alt="Church Pew Bench: Made from reclaimed cedar wood. Cracks and knots filled with colored epoxy.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/chair1.jpg" style="width:100%" onclick="currentSlide(8)"
+                    alt="Bar Stool: Frame made of solid hard maple. Seat made from black walnut.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/chair2.jpg" style="width:100%" onclick="currentSlide(9)"
+                    alt="Bar Stools: Frame made of solid hard maple. Seat made from black walnut.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/chair3.jpg" style="width:100%" onclick="currentSlide(10)"
+                    alt="Bar Stools: Frame made of solid hard maple. Seat made from black walnut.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/cradle1.jpg" style="width:100%" onclick="currentSlide(11)"
+                    alt="Rocking Baby Cradle: Frame and end walls made of solid hard maple. Sides made of bubinga. Brass pins for accents.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/cradle2.jpg" style="width:100%" onclick="currentSlide(12)"
+                    alt="Rocking Baby Cradle: Frame and end walls made of solid hard maple. Sides made of bubinga. Brass pins for accents.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/cabinet1.jpg" style="width:100%" onclick="currentSlide(13)"
+                    alt="Living Room Cabinet: Made for smaller home to help maximize storage.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/cabinet2.jpg" style="width:100%" onclick="currentSlide(14)"
+                    alt="Living Room Cabinet: Made for smaller home to help maximize storage.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/table.jpg" style="width:100%" onclick="currentSlide(15)"
+                    alt="Sapele Table Top: Made from sapele wood, to replace current top.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/eggholder.jpg" style="width:100%"
+                    onclick="currentSlide(16)" alt="Egg Holder: Made from canary wood. Holds 2 dozen eggs.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/cuttingboard.jpg" style="width:100%"
+                    onclick="currentSlide(17)" alt="Cutting Board: Made of solid hard maple and sapele wood. Ends hold it above counter-top.">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="images/resized/engraving.jpg" style="width:100%"
+                    onclick="currentSlide(18)" alt="Engravings: Personalized laser engravings on wood. Just about anything you want. These are scanned from handwritten recipes.">
+            </div>
+        </div>
+    </div>
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("demo");
+            let captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }    
+    </script>
+</body>
+
+</html>

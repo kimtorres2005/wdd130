@@ -35,10 +35,20 @@ nav a:hover {
     height: 125px;
 }
 
+#hero-msg h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+}
 
+p {
+    text-align: center;
+    font-size: 30px;
+}
 
-
-
+.gallery-grid {
+    width: 50%;
+}
 
 /* footer */
 footer {
