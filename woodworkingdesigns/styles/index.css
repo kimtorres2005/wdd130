@@ -86,7 +86,6 @@ nav a:hover {
 .eggholder {
     width: 75%;
     margin-left: 12.5%;
-    box-shadow: #A1B3B1 10px;
 }
 
 /* body for gallery page*/
@@ -150,7 +149,6 @@ nav a:hover {
     font-size: 70px;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    -webkit-user-select: none;
   }
   
   /* Position the "next button" to the right */
