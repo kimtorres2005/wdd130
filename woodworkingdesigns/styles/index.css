@@ -34,6 +34,8 @@ nav a:hover {
 
 .logo {
     height: 180px;
+    border: none;
+    margin: 0;
 }
 
 /* body for home page */
@@ -205,7 +207,123 @@ nav a:hover {
     opacity: 1;
   }
 
+  /* body for about page */
+  .designer img{
+    border: #005866 solid 7px;
+    margin-left: 550px;
+    margin-right: 526px;
+  }
 
+  .about-grid p {
+    color: #000000;
+    font-size: 35px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 200px;
+    font-family: "Lato", "Helvetica", sans-serif;
+    text-align: center;
+    line-height: 1.8;
+  }
+
+  #about-img img {
+    margin: 30px;
+    height: 600px;
+    border: #005866 solid 7px;
+  }
+  
+  /* contact us page */
+
+  form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 110px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 250px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 10em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 120px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+    height: 30px;
+    font-family: "Lato", "Helvetica", sans-serif;
+    font-size: 15px;
+  }
+
+  #feedback {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Lato", "Helvetica", sans-serif;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+label {
+  font-family: "Lato", "Helvetica", sans-serif;
+  font-size: 25px;
+}
+ 
 /* footer */
 footer {
     background-color: #005866;
