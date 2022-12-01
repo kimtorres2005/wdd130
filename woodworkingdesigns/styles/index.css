@@ -36,11 +36,11 @@ nav a:hover {
     height: 180px;
 }
 
-/* body */
+/* body for home page */
 
 #hero-box {
     position: relative;
-    color: #67A3BB;
+    color: white;
     text-align: center;
 }
 
@@ -153,7 +153,7 @@ nav a:hover {
   /* Position the "next button" to the right */
   .next {
     display: block;
-    margin-left: 1200px;
+    right: 0;
     border-radius: 3px 0 0 3px;
   }
   
